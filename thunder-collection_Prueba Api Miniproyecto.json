@@ -1,0 +1,75 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Prueba Api Miniproyecto",
+    "dateExported": "2024-02-26T03:43:11.807Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "2efa94cf-f641-4150-82f1-0b08607961a6",
+            "colId": "0f2e9452-fdd7-48ad-8592-25cb7840ca3c",
+            "containerId": "",
+            "name": "Docentes",
+            "url": "http://127.0.0.1:8000/api/docentes/1",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-02-26T03:37:38.168Z",
+            "modified": "2024-02-26T03:38:41.617Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "2249f3ef-b3de-4cf5-822a-83e644ad987b",
+            "colId": "0f2e9452-fdd7-48ad-8592-25cb7840ca3c",
+            "containerId": "",
+            "name": "Docentes",
+            "url": "http://127.0.0.1:8000/api/docentes",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-26T03:38:22.490Z",
+            "modified": "2024-02-26T03:39:49.373Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"dni\": \"123432\",\n  \"nombre\": \"Irma tre\",\n  \"apellido\": \"Ward\",\n  \"correo\": \"rod.kertzmann@example.net\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "af94e38f-2d5b-4bf6-a310-057a8abf9449",
+            "colId": "0f2e9452-fdd7-48ad-8592-25cb7840ca3c",
+            "containerId": "",
+            "name": "Docentes",
+            "url": "http://127.0.0.1:8000/api/docentes/10",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-02-26T03:40:18.567Z",
+            "modified": "2024-02-26T03:42:00.606Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"dni\": \"07132362\",\n  \"nombre\": \"Bertrand Prueba\",\n  \"apellido\": \"Thiel\",\n  \"correo\": \"dee79@example.net\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "64ef19b8-a87a-402c-ae49-0ae66e13f698",
+            "colId": "0f2e9452-fdd7-48ad-8592-25cb7840ca3c",
+            "containerId": "",
+            "name": "Docentes",
+            "url": "http://127.0.0.1:8000/api/docentes/",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-02-26T03:42:13.075Z",
+            "modified": "2024-02-26T03:42:39.055Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
